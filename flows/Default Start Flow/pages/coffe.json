@@ -1,0 +1,42 @@
+{
+  "name": "79789ff9-1f9b-4ed6-ae4b-9578e332cea4",
+  "displayName": "coffe",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "do you want coffee", "what can I get you" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "yes",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "sure", "no problem" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "what type",
+    "name": "1936217d-b566-4d84-8732-38b17b8df208"
+  }, {
+    "intent": "no",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "then fuck off" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Flow",
+    "name": "36b33ee5-edd2-4811-993b-d27192233e5e"
+  } ]
+}

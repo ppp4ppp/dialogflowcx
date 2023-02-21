@@ -1,0 +1,29 @@
+{
+  "name": "6d017e0d-b642-4e4e-af6f-696b36643e0e",
+  "displayName": "what type",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "what coffee do you want ?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "coffee type",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Perfect", "Is on the way" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Flow",
+    "name": "7acc4d6c-08ac-40ac-9561-524b8770a99a"
+  } ]
+}
