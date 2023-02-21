@@ -2,7 +2,21 @@
   "name": "6d017e0d-b642-4e4e-af6f-696b36643e0e",
   "displayName": "what type",
   "form": {
-  
+    "parameters": [ {
+      "displayName": "coffetypeparameter",
+      "required": true,
+      "entityType": "@coffeetype",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "what type of coffee do you want", "which one" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
   },
   "entryFulfillment": {
     "messages": [ {

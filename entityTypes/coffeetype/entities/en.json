@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "cappuchino",
+    "synonyms": [ "cappuchino" ],
+    "languageCode": "en"
+  }, {
+    "value": "latte",
+    "synonyms": [ "latte", "latte extra milk" ],
+    "languageCode": "en"
+  }, {
+    "value": "black",
+    "synonyms": [ "black", "no milk" ],
+    "languageCode": "en"
+  } ]
+}
